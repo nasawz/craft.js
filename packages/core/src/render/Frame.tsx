@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { NodeElement } from '../nodes/NodeElement';
-import { deprecationWarning, ROOT_NODE } from '@craftjs/utils';
+import { deprecationWarning, ROOT_NODE } from '@craftjs-taro/utils';
 import { useInternalEditor } from '../editor/useInternalEditor';
 import { SerializedNodes } from '../interfaces';
 

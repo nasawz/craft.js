@@ -5,7 +5,7 @@ import {
   defineEventListener,
   Handlers,
   CraftDOMEvent,
-} from '@craftjs/utils';
+} from '@craftjs-taro/utils';
 import { EditorStore } from '../editor/store';
 
 type DraggedElement = NodeId | NodeTree;

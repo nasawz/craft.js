@@ -3,7 +3,7 @@ import {
   useInternalNode,
   useInternalNodeReturnType,
 } from '../nodes/useInternalNode';
-import { deprecationWarning } from '@craftjs/utils';
+import { deprecationWarning } from '@craftjs-taro/utils';
 
 export type useNodeReturnType<S = null> = useInternalNodeReturnType<S> &
   Pick<useInternalNodeReturnType<S>['actions'], 'setProp'>;

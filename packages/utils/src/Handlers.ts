@@ -76,10 +76,10 @@ class WatchHandler {
     this.unsubscribe = store.subscribe(
       (state) => ({ enabled: state.options.enabled }),
       ({ enabled }) => {
-        if (!document.body.contains(el)) {
-          this.remove();
-          return this.unsubscribe();
-        }
+        // if (!document.body.contains(el)) {
+        //   this.remove();
+        //   return this.unsubscribe();
+        // }
 
         if (enabled) {
           this.add();
@@ -171,10 +171,10 @@ export abstract class Handlers<T extends string = null> {
       }
 
       const connector = (el, opts) => {
-        if (!el || !document.body.contains(el)) {
-          this.wm.delete(el);
-          return;
-        }
+        // if (!el || !document.body.contains(el)) {
+        //   this.wm.delete(el);
+        //   return;
+        // }
 
         const domHandler = this.wm.get(el);
 

@@ -4,4 +4,4 @@ export * from './interfaces';
 export * from './hooks';
 export * from './editor';
 export * from './events';
-export { ROOT_NODE } from '@craftjs/utils';
+export { ROOT_NODE } from '@craftjs-taro/utils';

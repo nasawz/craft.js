@@ -13,7 +13,7 @@ import {
   ERROR_MOVE_TOP_LEVEL_NODE,
   ERROR_MOVE_CANNOT_DROP,
   ROOT_NODE,
-} from '@craftjs/utils';
+} from '@craftjs-taro/utils';
 import { serializeNode } from '../utils/serializeNode';
 
 export function NodeHelpers(state: EditorState, id: NodeId) {

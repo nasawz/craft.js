@@ -1,5 +1,5 @@
 {
-  "name": "@craftjs/utils",
+  "name": "@craftjs-taro/utils",
   "description": "Utilities used internally across the craft.js monorepo",
   "private": false,
   "version": "0.1.0-beta.10",
