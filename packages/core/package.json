@@ -15,15 +15,15 @@
     "wysiwyg",
     "html"
   ],
-  "author": "Prev Wong <prevwong@gmail.com>",
-  "homepage": "https://github.com/prevwong/craft.js/",
+  "author": "nasawz <nasa127@gmail.com>",
+  "homepage": "https://github.com/nasawz/craft.js/",
   "license": "MIT",
   "main": "./dist/cjs/index.js",
   "module": "./dist/esm/index.js",
   "types": "./lib/index.d.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/prevwong/craft.js/"
+    "url": "https://github.com/nasawz/craft.js/"
   },
   "scripts": {
     "start": "cross-env NODE_ENV=development ../../scripts/build.sh",
@@ -31,7 +31,7 @@
     "clean": "rimraf lib dist"
   },
   "bugs": {
-    "url": "https://github.com/prevwong/craft.js/issues"
+    "url": "https://github.com/nasawz/craft.js/issues"
   },
   "dependencies": {
     "@craftjs-taro/utils": "^0.1.0-beta.taro.1",
